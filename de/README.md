@@ -24,6 +24,14 @@ Einige Benutzer bedienen ihren Computer fast ausschließlich mit der Tastatur od
 
 Die Reihenfolge, in der der Fokus durch interaktive Elemente über die `Tab` vorwärts und rückwärts erfolgt, wird nicht überraschend als *Registerkartenreihenfolge bezeichnet* . Ein wichtiger Schritt, den wir später behandeln werden, ist es, sicherzustellen, dass Sie Ihre Seite mit einer logischen Tabulatorreihenfolge gestalten.
 
+
+hahahahahahhahahahhahahaahha
+
+lioklioklioklioklioklioklioklioklioklioklkioklioklliokliokliok
+
+
+
+
 ## Was ist fokussierbar?
 
 Integrierte interaktive HTML-Elemente wie Textfelder, Schaltflächen und *Auswahllisten* sind *implizit fokussierbar. Dies* bedeutet, dass sie automatisch in die Registerkartenreihenfolge eingefügt werden und über eine integrierte Tastaturereignisbehandlung ohne Eingreifen des Entwicklers verfügen.
@@ -39,7 +47,3 @@ Aber nicht alle Elemente sind fokussierbar. Absätze, Divs und verschiedene ande
 Lassen Sie uns einige der Fokustechniken ausprobieren, die wir gerade besprochen haben. Rufen Sie mit Chrome die Modellseite {: .external} dieser [Airline-Website auf](http://udacity.github.io/ud891/lesson2-focus/01-basic-form/) und suchen Sie nach einem bestimmten Ticket, **indem Sie nur die Tastatur** eingeben. Die Seite akzeptiert keine Mauseingaben, daher können Sie die Übung nicht verfälschen (nicht, dass wir Ihnen nicht vertrauen ;-).
 
 ![Airline-Site-Modell](../imgs/airlinesite2.png)
-
-hahahahahahhahahahhahahaahha
-
-lioklioklioklioklioklioklioklioklioklioklkioklioklliokliokliok

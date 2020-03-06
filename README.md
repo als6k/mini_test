@@ -61,12 +61,6 @@ in section 2.1.1 that [all page functionality should be available using the
 keyboard](https://webaim.org/standards/wcag/checklist#sc2.1.1){: .external },
 unless it's something you cannot do with a keyboard, such as freehand drawing.
 
-As a user, you can control which element is currently focused using `Tab`,
-`Shift+Tab`, or the arrow keys. On Mac OSX this works a little differently:
-while Chrome always lets you navigate with `Tab`, you need to press `Option+Tab`
-to change focus in other browsers like Safari. (You can change this setting in
-the Keyboard section of System Preferences.)
-
 ![keyboard preferences dialog](imgs/system-prefs2.png)
 
 The order in which focus proceeds forward and backward through interactive
@@ -99,31 +93,11 @@ accept mouse input, so you can't fudge the exercise (not that we don't trust you
 
 ![airline site mockup](imgs/airlinesite2.png)
 
-The ticket parameters you should specify are:
-
- - one way
- - to Melbourne
- - leaving on 12 October 2017 (10/12/2017)
- - returning on 23 October 2017 (10/23/2017)
- - window seat
- - do not want to receive promotional offers
-
 When you successfully complete the form with no input errors and activate the
 Search button, the form will simply clear and reset. Go ahead and complete the
 form, then come back.
 
-Let's examine how the form uses your keyboard input. Starting with your first
-few `Tab` presses, the browser highlights the navigation items for Flights,
-Hotels, and Rental Cars. As you continue to press `Tab` you proceed to the
-radiobutton group where you can choose from Round Trip, One Way, or Multi City
-using the arrow keys.
-
-Continue through the name and address fields, filling in the required
-information. When you arrive at the destination select element, you can use the
-arrow keys to choose a city, or you can start typing to autocomplete the field.
-Similarly, in the date fields, you can use the arrow keys or just type a date.
-
-Selecting a seat type also relies on the arrow keys, or you can type "w", "a",
+at type also relies on the arrow keys, or you can type "w", "a",
 or "n" to jump to a seat option. Then you can disable the promotional offers
 default by pressing the spacebar while the checkbox is focused. Finally, focus
 the Search button and press `Enter` to submit the form.

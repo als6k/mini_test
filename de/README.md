@@ -32,18 +32,6 @@ lioklioklioklioklioklioklioklioklioklioklkioklioklliokliokliok
 
 
 
-## Was ist fokussierbar?
-
-Integrierte interaktive HTML-Elemente wie Textfelder, Schaltflächen und *Auswahllisten* sind *implizit fokussierbar. Dies* bedeutet, dass sie automatisch in die Registerkartenreihenfolge eingefügt werden und über eine integrierte Tastaturereignisbehandlung ohne Eingreifen des Entwicklers verfügen.
-
-![implizit fokussierbare Felder](../imgs/implicitly-focused.png)
-
-Aber nicht alle Elemente sind fokussierbar. Absätze, Divs und verschiedene andere Seitenelemente werden beim Durchblättern der Seite nicht fokussiert, und das ist beabsichtigt. Es besteht im Allgemeinen keine Notwendigkeit, etwas zu fokussieren, wenn der Benutzer nicht damit interagieren kann.
-
-![Nicht alle Elemente sind fokussierbar](../imgs/not-all-elements.png)
-
-## Fokus erleben
-
-Lassen Sie uns einige der Fokustechniken ausprobieren, die wir gerade besprochen haben. Rufen Sie mit Chrome die Modellseite {: .external} dieser [Airline-Website auf](http://udacity.github.io/ud891/lesson2-focus/01-basic-form/) und suchen Sie nach einem bestimmten Ticket, **indem Sie nur die Tastatur** eingeben. Die Seite akzeptiert keine Mauseingaben, daher können Sie die Übung nicht verfälschen (nicht, dass wir Ihnen nicht vertrauen ;-).
+![implizit fokussierbare Felder](../imgs/focused.png)
 
 ![Airline-Site-Modell](../imgs/airlinesite2.png)

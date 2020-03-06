@@ -134,6 +134,3 @@ used in the form are native HTML tags with implicit focus, the form works fine
 with the keyboard, and you don't have to write any code to add or manage focus
 behavior.
 
-## Feedback {: #feedback }
-
-{% include "web/_shared/helpful.html" %}

@@ -8,14 +8,6 @@ Projektpfad: /web/fundamentals/_project.yaml book_path: /web/fundamentals/_book.
 
 In dieser Lektion sprechen wir über den *Fokus* und wie Sie ihn in Ihrer Anwendung verwalten können. Der Fokus bezieht sich darauf, welches Steuerelement auf dem Bildschirm (ein Eingabeelement wie ein Feld, ein Kontrollkästchen, eine Schaltfläche oder ein Link) derzeit Eingaben von der Tastatur und aus der Zwischenablage erhält, wenn Sie Inhalte einfügen.
 
-Dies ist ein großartiger Ort, um etwas über Barrierefreiheit zu lernen, da wir alle wissen, wie man eine Tastatur benutzt, es einfach ist, sich darauf zu beziehen und sie zu testen, und es praktisch allen Benutzern zugute kommt.
-
-Benutzer mit motorischen Beeinträchtigungen, die von einer dauerhaften Lähmung bis zu einem verstauchten Handgelenk reichen können, verlassen sich möglicherweise auf eine Tastatur oder ein Schaltgerät, um auf Ihrer Seite zu navigieren. Daher ist eine gute Fokusstrategie entscheidend, um ihnen eine gute Erfahrung zu bieten.
-
-Und für die Hauptbenutzer, die jede Tastenkombination auf ihrem Computer kennen, wird die Möglichkeit, schnell mit der Tastatur allein auf Ihrer Website zu navigieren, sie sicherlich produktiver machen.
-
-Eine gut implementierte Fokusstrategie stellt somit sicher, dass jeder, der Ihre Anwendung verwendet, eine bessere Erfahrung hat. Wir werden in den kommenden Lektionen sehen, dass die Bemühungen, die Sie in den Mittelpunkt stellen, eine wichtige Grundlage für die Unterstützung von Benutzern mit unterstützender Technologie und in der Tat aller Benutzer sind.
-
 ## Was ist der Fokus?
 
 Der Fokus bestimmt, wohin Tastaturereignisse zu einem bestimmten Zeitpunkt auf der Seite verschoben werden. Wenn Sie beispielsweise ein Texteingabefeld fokussieren und mit der Eingabe beginnen, empfängt das Eingabefeld die Tastaturereignisse und zeigt die von Ihnen eingegebenen Zeichen an. Während es den Fokus hat, erhält es auch eingefügte Eingaben aus der Zwischenablage.
@@ -48,8 +40,3 @@ Lassen Sie uns einige der Fokustechniken ausprobieren, die wir gerade besprochen
 
 ![Airline-Site-Modell](../imgs/airlinesite2.png)
 
-Wenn Sie das Formular ohne Eingabefehler erfolgreich ausgefüllt und die Schaltfläche Suchen aktiviert haben, wird das Formular einfach gelöscht und zurückgesetzt. Füllen Sie das Formular aus und kehren Sie dann zurück.
-
-at type hängt auch von den Pfeiltasten ab, oder Sie können "w", "a" oder "n" eingeben, um zu einer Sitzoption zu springen. Anschließend können Sie die Standardeinstellung für Werbeangebote deaktivieren, indem Sie die Leertaste drücken, während das Kontrollkästchen aktiviert ist. Konzentrieren Sie sich schließlich auf die Schaltfläche Suchen und drücken Sie die `Enter` , um das Formular zu senden.
-
-Es ist sehr praktisch, mit einem Formular nur über die Tastatur zu interagieren und nicht zur Maus und zurück zu wechseln, um eine Aufgabe zu erledigen. Da alle im Formular verwendeten Elemente native HTML-Tags mit implizitem Fokus sind, funktioniert das Formular problemlos mit der Tastatur, und Sie müssen keinen Code schreiben, um das Fokusverhalten hinzuzufügen oder zu verwalten.

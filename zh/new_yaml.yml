@@ -1,0 +1,272 @@
+---
+commands:
+  help: 显示此帮助屏幕
+  cheat: 允许您作弊
+  give: 给某人一些Slimefun物品
+  guide: 给自己一个Slimefun指南
+  timings: 关于您的服务器的滞后信息
+  teleporter: 查看其他玩家的航点
+  versions: 列出所有已安装的插件
+  search: 在您的指南中搜索给定的术语
+  open_guide: 在不使用本书的情况下打开Slimefun的指南
+  stats: 显示有关玩家的一些统计数据
+  research:
+    description: 解锁/重置玩家的研究
+    reset: "＆c您已重置％player％的知识"
+    reset-target: "＆c您的知识已重设"
+guide:
+  locked: 已锁定
+  locked-category:
+  - 要解锁此类别，您将
+  - 需要解锁所有物品
+  - 以下类别
+  search:
+    message: "＆b您要搜索什么？"
+    name: "＆7Search ..."
+    tooltip: "＆b单击以搜索项目"
+    inventory: 搜索：％item％
+  tooltips:
+    open-category: 点击打开
+    versions-notice: 这些在报告错误时非常重要！
+    wiki: 在Slimefun官方Wiki上查看此项目
+    recipes:
+      machine: 用本机制作的食谱
+      miner: 您可以通过此矿工获得的资源
+      generator: 可用燃料类型
+      gold-pan: 您可以获得的资源
+  cheat:
+    no-multiblocks: "＆4您不能在多块游戏中作弊，而必须构建它们！"
+  pages:
+    previous: 上一页
+    next: 下一页
+  back:
+    title: 背部
+    guide: 返回Slimefun指南
+    settings: 返回设置面板
+  languages:
+    updated: "＆a您的语言已成功设置为：＆b％lang％"
+    selected-language: 当前选择：
+    select: 点击选择此语言
+    select-default: 单击以选择默认语言
+    translations:
+      name: "＆a缺少什么吗？"
+      lore: 点击添加您自己的翻译
+  title:
+    main: Slimefun指南
+    settings: 设置和信息
+    languages: 选择您喜欢的语言
+    credits: Slimefun4撰稿人
+    wiki: Slimefun4维基
+    addons: Slimefun4的附加组件
+    bugs: 错误报告
+    source: 源代码
+  credits:
+    commit: 承诺
+    commits: 提交
+    profile-link: 单击以访问他们在GitHub上的个人资料
+    roles:
+      developer: "＆6开发人员"
+      wiki: "＆3Wiki编辑器"
+      resourcepack: "＆cResourcepack艺术家"
+      translator: "＆9Translator"
+messages:
+  not-researched: "＆4您没有足够的知识来理解这一点"
+  not-enough-xp: "＆4您没有足够的XP可以解锁"
+  unlocked: "＆b您已解锁＆7“％research％”"
+  only-players: "＆4此命令仅适用于玩家"
+  unknown-player: "＆4未知玩家：＆c％player％"
+  no-permission: "＆4您没有执行此操作所需的权限"
+  usage: "＆4用法：＆c％用法％"
+  not-online: "＆4％player％＆cis不在线！"
+  not-valid-item: "＆4％item％＆cis不是有效的商品！"
+  not-valid-amount: "＆4％amount％＆cis无效：必须大于0！"
+  given-item: "＆b您已经获得了＆a％amount％＆7“％item％＆7”"
+  give-item: "＆b您已给％player％＆a％amount％＆7“％item％＆7”"
+  not-valid-research: "＆4％research％＆cis不是有效的研究！"
+  give-research: "＆b您已向％player％提供研究＆7“％research％＆7”"
+  hungry: "＆c您太饿了，不能这样做！"
+  mode-change: "＆b％设备％模式更改为：＆9％模式％"
+  disabled-in-world: "＆4＆l此物品在这个世界上已被禁用"
+  disabled-item: "＆4＆l此项目已被禁用！你怎么知道的？"
+  no-tome-yourself: "＆c您不能自己使用＆4Tome of Knowledge＆con ..."
+  multimeter: "＆b存储的能量：＆3％存储的百分比＆b /＆3％的容量％"
+  talisman:
+    anvil: "＆a＆o您的护身符免于损坏"
+    miner: "＆a＆o您的护符刚刚掉落一倍"
+    hunter: "＆a＆o您的护符刚刚掉落一倍"
+    lava: "＆a＆o您的护身符使您免于燃烧甚至死亡"
+    water: "＆a＆o您的护身符使您免于溺水"
+    angel: "＆a＆o您的护身符使您免于跌落伤害"
+    fire: "＆a＆o您的护身符使您免于燃烧甚至死亡"
+    magician: "＆a＆o您的护身符给了您额外的结界"
+    traveller: "＆a＆o您的护身符给您带来了加速"
+    warrior: "＆a＆o您的护身符提高了您的力量一段时间"
+    knight: "＆a＆o您的护身符给了您5秒的回复时间"
+    whirlwind: "＆a＆o您的护身符反映了投射物"
+    wizard: "＆a＆o您的护身符为您提供了更好的财富等级，但也可能降低了其他结界等级"
+  soulbound-rune:
+    fail: "＆c您一次只能将一个物品绑定到您的灵魂。"
+    success: "＆a您已成功将此商品绑定到您的灵魂！死后将保留它。"
+  research:
+    start: "＆7远古之魂在您耳边低语着神秘的话！"
+    progress: "＆7您开始怀疑＆b％research％＆e（％progress％）"
+  fire-extinguish: "＆7您已经熄灭了自己"
+  cannot-place: "＆c您不能在该位置放置该块！"
+  no-pvp: "＆c您不能在这里PVP！"
+  radiation: "＆4您已受到致命的辐射！ ＆c摆脱放射性物质或装备整套危险品套装！"
+  opening-guide: "＆b打开指南，这可能需要几秒钟的时间..."
+  opening-backpack: "＆b打开背包，这可能需要几秒钟的时间..."
+  no-iron-golem-heal: "＆c那不是铁锭。您不能用它来治愈铁Go！"
+  link-prompt: "＆e点击此处："
+  diet-cookie: "＆e您开始感到很轻..."
+  fortune-cookie:
+  - "＆7帮我，我被困在一个幸运饼干工厂里！"
+  - "＆7您明天将死...由爬行者"
+  - "＆7在您生命中的某个时刻，会发生一些不好的事情！！！"
+  - "＆7下周您将注意到这不是真实世界，您正在玩电脑游戏"
+  - "＆7这个饼干在几秒钟内就会好吃"
+  - "＆7您将听到的最后一个单词将是“ EXTERMINATE !!!”。"
+  - "＆7无论您做什么，都不要拥抱爬行者...我尝试过。感觉不错，但是不值得。"
+  - "＆742。答案是42。"
+  - "＆7A Walshy每天将使您远离烦恼。"
+  - "＆7永远不要直截了当地挖！"
+machines:
+  pattern-not-found: "＆e抱歉，我无法识别此食谱。请以正确的方式将物品放入分配器。"
+  unknown-material: "＆eSorry，我在自动售货机中无法识别该物品。请放一些我知道的东西。"
+  wrong-item: "＆eSorry，我无法识别您右键单击我的项目。查看食谱，查看可以使用的物品。"
+  full-inventory: "＆e抱歉，我的库存太满了！"
+  in-use: "＆c此方块的库存目前由其他玩家打开。"
+  ignition-chamber-no-flint: "＆Cingnition Chamber缺少Flint和Steel。"
+  ANCIENT_ALTAR:
+    not-enough-pedestals: "＆4祭坛没有被所需数量的底座＆c（％pedestals％/ 8）包围"
+    unknown-catalyst: "＆4Unknown Catalyst！ ＆c改用正确的食谱！"
+    unknown-recipe: "＆4未知食谱！ ＆c改用正确的食谱！"
+  ANCIENT_PEDESTAL:
+    obstructed: "＆4Pedestal被阻塞！ ＆c移除底座上方的任何东西！"
+  HOLOGRAM_PROJECTOR:
+    enter-text: "＆7请在聊天室中输入所需的全息图文字。 ＆r（支持颜色代码！）"
+    inventory-title: 全息图编辑器
+  ELEVATOR:
+    no-destinations: "＆4找不到目的地"
+    pick-a-floor: "＆3-挑选地板-"
+    current-floor: "＆e这是您当前所在的楼层："
+    click-to-teleport: "＆e点击＆7可以传送到该楼层："
+    enter-name: "＆7请在聊天室中输入所需的楼层名称。 ＆r（支持颜色代码！）"
+    named: "＆2成功命名了这个楼层：＆r％floor％"
+  TELEPORTER:
+    teleporting: "＆3传送..."
+    teleported: "＆3已传送！"
+    cancelled: "＆4传送被取消！"
+    invulnerability: "＆b＆l您已获得30秒的无敌能力！"
+    gui:
+      title: 您的航路点
+      tooltip: 点击传送
+      time: 预计的时间
+  GPS_CONTROL_PANEL:
+    title: GPS-控制面板
+    transmitters: 变送器概述
+    waypoints: 航点概述
+  CARGO_NODES:
+    must-be-placed: "＆4必须放在箱子或机器上！"
+anvil:
+  not-working: "＆4您不能在砧中使用Slimefun Items！"
+backpack:
+  already-open: "＆c抱歉，这个背包在其他地方打开了！"
+  no-stack: "＆c您不能叠放背包"
+miner:
+  no-ores: "＆e对不起，我在附近找不到任何矿石！"
+workbench:
+  not-enhanced: "＆4您不能在普通工作台上使用Slimefun Items"
+gps:
+  deathpoint: "＆4死点＆7％日期％"
+  waypoint:
+    new: "＆e请在聊天中输入新航点的名称。 ＆7（支持颜色代码！）"
+    added: "＆a成功添加了新的航点"
+    max: "＆4您已达到最大航点数量"
+  insufficient-complexity:
+  - "＆4GPS网络复杂度不足：＆c％complexity％"
+  - "＆4a）您还没有GPS网络设置"
+  - "＆4b）您的GPS网络不够复杂"
+  geo:
+    scan-required: 需要＆4GEO-Scan！ ＆c首先使用GEO-Scanner扫描此块！
+inventory:
+  no-access: "＆4您无权访问此阻止"
+android:
+  started: "＆7您的Android恢复运行其脚本"
+  stopped: "＆7您的Android已暂停其脚本"
+  scripts:
+    already-uploaded: "＆4此脚本已经上传。"
+    editor: 脚本编辑器
+    instructions:
+      START: "＆2开始脚本"
+      REPEAT: "＆9重复脚本"
+      WAIT: "＆eWait 0.5s"
+      GO_FORWARD: "＆7前进"
+      GO_UP: "＆7向上移动"
+      GO_DOWN: "＆7向下移动"
+      TURN_LEFT: "＆7向左转"
+      TURN_RIGHT: "＆7向右转"
+      DIG_UP: "＆b挖掘"
+      DIG_FORWARD: "＆b向前挖"
+      DIG_DOWN: "＆b向下挖掘"
+      MOVE_AND_DIG_UP: "＆b向上移动和挖掘"
+      MOVE_AND_DIG_FORWARD: "＆b向前移动和挖掘"
+      MOVE_AND_DIG_DOWN: "＆b向下移动和挖掘"
+      ATTACK_MOBS_ANIMALS: "＆4Attack＆c（敌对生物和动物）"
+      ATTACK_MOBS: "＆4攻击＆c（敌对生物）"
+      ATTACK_ANIMALS: "＆4攻击＆c（动物）"
+      ATTACK_ANIMALS_ADULT: "＆4攻击＆c（动物＆7 [成人]＆c）"
+      CHOP_TREE: "＆cChop和补植"
+      CATCH_FISH: "＆b抓鱼"
+      FARM_FORWARD: "＆b收获与补种"
+      FARM_DOWN: "＆b收获与补种＆7（下面的方块）"
+      FARM_EXOTIC_FORWARD: "＆b高级收割和补种"
+      FARM_EXOTIC_DOWN: "＆b高级收割和补植＆7（下面的方块）"
+      INTERFACE_ITEMS: "＆9将库存内容推送到面对的界面"
+      INTERFACE_FUEL: 从面对的界面＆cPull Fuel
+    enter-name:
+    - 
+    - "＆e请输入脚本名称"
+    uploaded:
+    - "＆b正在上传..."
+    - "＆a成功上传了您的脚本！"
+    rating:
+      own: "＆4您无法为自己的脚本评分！"
+      already: "＆4您已经为此脚本留下了评分！"
+languages:
+  default: 服务器默认
+  en: 英语
+  de: 德语
+  fr: 法文
+  it: 义大利文
+  es: 西班牙文
+  pl: 抛光
+  sv: 瑞典
+  nl: 荷兰人
+  cs: 捷克文
+  hu: 匈牙利
+  lv: 拉脱维亚语
+  ru: 俄语
+  sk: 斯洛伐克文
+  zh-CN: 中文（中国）
+  zh-TW: 中文（台湾）
+  vi: 越南文
+  id: 印度尼西亚
+  el: 希腊语
+  he: 希伯来语
+  pt: 葡萄牙语（葡萄牙）
+  pt-BR: 葡萄牙语（巴西）
+  ar: 阿拉伯
+  af: 南非语
+  da: 丹麦文
+  fi: 芬兰
+  uk: 乌克兰
+  ms: 马来语
+  'no': 挪威
+  ja: 日本
+  fa: 波斯语
+  th: 泰国
+  ro: 罗马尼亚语
+  bg: 保加利亚语
+  ko: 韩语
+  tr: 土耳其
